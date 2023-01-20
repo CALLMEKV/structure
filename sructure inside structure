@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main() {
+struct employee
+{
+    int empid;
+    char name[30];
+struct salary
+{
+    int basicpay;
+    int da;
+    int ca;
+    int hra;
+  }allowance;
+};
+struct employee e1;
+printf("enter the employee data:");
+scanf("%d%s%d%d%d%d",&e1.empid,&e1.name,&e1.allowance.basicpay,&e1.allowance.da,&e1.allowance.ca,&e1.allowance.hra);
+printf("the enterd record of an employee");
+printf("%d%s%d%d%d%d",e1.empid,e1.name,e1.allowance.basicpay,e1.allowance.da,e1.allowance.ca,e1.allowance.hra);
+}
